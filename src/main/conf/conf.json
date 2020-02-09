@@ -1,0 +1,30 @@
+{  
+   "default_uri"  			: "feeds.bbci.co.uk",
+   "currency_uri_default" 	: "www.ecb.europa.eu",
+   "currency_uri"			: "/stats/eurofxref/eurofxref-daily.xml",
+   "rss_feed"     			: [  
+      "/news/rss.xml",
+      "/news/science_and_environment/rss.xml",
+      "/news/world/rss.xml"
+   ],
+   "server_port"  			: "8080",
+   "db_name"				: "News_of_the_day",
+   "connection_string"		: "mongodb://localhost:27017",
+   
+   "eventBusURIDB"			: "news.server.to.mongo.DB",
+   "eventBusURIRSS"			: "news.server.to.mongo.RSS",
+   "eventBusURIServer"		: "news.server.to.mongo.Server",
+   
+   "server_address"			: "localhost",
+   
+   "server_content"			: [
+	  "/Main_page_news",
+	  "/World_news",
+	  "/Science_news",
+	  "/Currency_rates",
+	  "/main_latest",
+	  "/world_latest",
+	  "/science_latest",
+	  "/currency_latest"
+   ]
+}
